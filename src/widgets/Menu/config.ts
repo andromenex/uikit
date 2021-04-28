@@ -31,7 +31,7 @@ export const links = [
   {
     label: "Certik Audit (In-Progress)",
     icon: "ShieldIcon",
-    href: "https://twitter.com/KoalaDefi/status/1367218225310818308",
+    href: "https://twitter.com/Andromenex/status/1367218225310818308",
     target: "_blank",
   },
   {
@@ -110,16 +110,16 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/koaladefi/",
+        href: "https://github.com/andromenex/",
         target: '_blank',
       },
       {
         label: "Docs",
-        href: "https://koaladefi.gitbook.io/koaladefi/",
+        href: "https://andromenexdefi.gitbook.io/andromenexdefi/",
       },
       {
         label: "Blog",
-        href: "https://koaladefi.medium.com/",
+        href: "https://andromenex.medium.com/",
       },
     ],
   },
@@ -132,18 +132,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/koaladefichat",
+        href: "https://t.me/andromenexchat",
       },
       {
         label: "Announcements",
-        href: "https://t.me/koaladefi",
+        href: "https://t.me/andromenex",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/KoalaDefi",
+    href: "https://twitter.com/Andromenex",
   },
 ];
 
