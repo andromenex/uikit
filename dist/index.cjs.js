@@ -2103,7 +2103,7 @@ var Icon$K = function (props) {
     //   <path d="M2.3,6.18a.5.5,0,0,1-.25-.93l1.42-.83a.52.52,0,0,1,.69.19A.5.5,0,0,1,4,5.29l-1.42.82A.47.47,0,0,1,2.3,6.18ZM2.93,2.4H1.29a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H2.93a.5.5,0,0,1,.5.5A.5.5,0,0,1,2.93,2.4Z"/>
     // </Svg>
     React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24", width: "24px", color: "text" }, props),
-        React__default['default'].createElement("path", { fill: "none", stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
+        React__default['default'].createElement("path", { stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
 };
 
 var Icon$L = function (props) {
@@ -2136,7 +2136,7 @@ var Icon$O = function (props) {
     //   <path d="M2.3,6.18a.5.5,0,0,1-.25-.93l1.42-.83a.52.52,0,0,1,.69.19A.5.5,0,0,1,4,5.29l-1.42.82A.47.47,0,0,1,2.3,6.18ZM2.93,2.4H1.29a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H2.93a.5.5,0,0,1,.5.5A.5.5,0,0,1,2.93,2.4Z"/>
     // </Svg>
     React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24", width: "24px", color: "text" }, props),
-        React__default['default'].createElement("path", { fill: "none", stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
+        React__default['default'].createElement("path", { stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
 };
 
 var Icon$P = function (props) {
@@ -2155,7 +2155,7 @@ var Icon$Q = function (props) {
     //   />
     // </Svg>
     React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24", width: "24px", color: "text" }, props),
-        React__default['default'].createElement("path", { fill: "none", stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
+        React__default['default'].createElement("path", { stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
 };
 
 var Icon$R = function (props) {
@@ -2207,8 +2207,12 @@ var Icon$S = function (props) {
 };
 
 var Icon$T = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" })));
+    return (
+    // <Svg viewBox="0 0 24 24" {...props}>
+    //   <path d="M6 10C4.9 10 4 10.9 4 12C4 13.1 4.9 14 6 14C7.1 14 8 13.1 8 12C8 10.9 7.1 10 6 10ZM18 10C16.9 10 16 10.9 16 12C16 13.1 16.9 14 18 14C19.1 14 20 13.1 20 12C20 10.9 19.1 10 18 10ZM12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10Z" />
+    // </Svg>
+    React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24", width: "24px", color: "text" }, props),
+        React__default['default'].createElement("path", { stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
 };
 
 var Icon$U = function (props) {
@@ -2263,7 +2267,7 @@ var Icon$Z = function (props) {
     //   />
     // </Svg>
     React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24", width: "24px", color: "text" }, props),
-        React__default['default'].createElement("path", { fill: "none", stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
+        React__default['default'].createElement("path", { stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
 };
 
 var Icon$_ = function (props) {
@@ -2295,7 +2299,7 @@ var Icon$10 = function (props) {
     //   <path d="M2.3,6.18a.5.5,0,0,1-.25-.93l1.42-.83a.52.52,0,0,1,.69.19A.5.5,0,0,1,4,5.29l-1.42.82A.47.47,0,0,1,2.3,6.18ZM2.93,2.4H1.29a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H2.93a.5.5,0,0,1,.5.5A.5.5,0,0,1,2.93,2.4Z"/>
     // </Svg>
     React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24", width: "24px", color: "text" }, props),
-        React__default['default'].createElement("path", { fill: "none", stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
+        React__default['default'].createElement("path", { stroke: "black", d: "M 19.42,12.00\n           C 19.42,16.10 16.10,19.42 12.00,19.42\n             7.90,19.42 4.58,16.10 4.58,12.00\n             4.58,7.90 7.90,4.58 12.00,4.58\n             16.10,4.58 19.42,12.00 19.42,12.00 Z" })));
 };
 
 var IconModule = /*#__PURE__*/Object.freeze({
@@ -3099,7 +3103,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ff0000", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", 
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#000000", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", 
     // text: "#424f3e",
     text: "#000000", textDisabled: "#BDC2C4", 
     // textSubtle: "#62815c",
