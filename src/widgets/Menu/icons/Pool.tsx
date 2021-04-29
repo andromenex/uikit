@@ -13,7 +13,7 @@ const Icon: React.FC<SvgProps> = (props) => {
     //   />
     // </Svg>
     <Svg viewBox="0 0 24 24" width="24px" color="text" {...props}>
-      <path fill="none" stroke="black" d="M 19.42,12.00
+      <path stroke="black" d="M 19.42,12.00
            C 19.42,16.10 16.10,19.42 12.00,19.42
              7.90,19.42 4.58,16.10 4.58,12.00
              4.58,7.90 7.90,4.58 12.00,4.58
