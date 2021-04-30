@@ -26,8 +26,8 @@ const LinkLabel = styled.div<{ isPushed: boolean }>`
 
 const MenuEntry = styled.div<Props>`
   cursor: pointer;
-  // display: flex;
-  display: inline-block;
+  display: flex;
+  // display: inline-block;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};

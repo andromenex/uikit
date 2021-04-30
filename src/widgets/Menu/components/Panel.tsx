@@ -33,7 +33,7 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   ${({ theme }) => theme.mediaQueries.nav} {
     border-right: 6px solid black;
     // width: ${({ isPushed }) => `${isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED}px`};
-    width: 100px;
+    width: 300px;
   }
 `;
 
