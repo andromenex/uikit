@@ -2491,7 +2491,7 @@ var Menu = function (_a) {
     // const homeLink = links.find((link) => link.label === "Home");
     return (React__default['default'].createElement(Wrapper$1, null,
         React__default['default'].createElement(StyledNav, { showMenu: showMenu },
-            React__default['default'].createElement("img", { src: "../../../../assets/testLogo.svg", alt: "Logo", style: { width: "24px" } }),
+            React__default['default'].createElement("img", { src: "../../images/testLogo.svg", alt: "Logo", style: { width: "24px" } }),
             React__default['default'].createElement("ul", { style: { listStyleType: "none", float: "left" } },
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/swap" }, "Swap")),
@@ -2501,8 +2501,7 @@ var Menu = function (_a) {
                     React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/#/pools" }, "Pools")),
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/#/bush" }, "Quasar"))),
-            React__default['default'].createElement(Flex, null,
-                React__default['default'].createElement(UserBlock$1, { account: account, login: login, logout: logout }))),
+            React__default['default'].createElement(UserBlock$1, { account: account, login: login, logout: logout })),
         React__default['default'].createElement(BodyWrapper, null,
             React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React__default['default'].createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));

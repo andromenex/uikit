@@ -125,16 +125,16 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? "/"}
         /> */}
-        <img src="../../../../assets/testLogo.svg" alt="Logo" style={{width: "24px"}}/>
+        <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/>
         <ul style={{listStyleType: "none", float: "left"}}>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/farm">Farms</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/pools">Pools</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/bush">Quasar</a></li>
         </ul>
-        <Flex>          
+        {/* <Flex>           */}
           <UserBlock account={account} login={login} logout={logout} />
-        </Flex>
+        {/* </Flex> */}
       </StyledNav>
       <BodyWrapper>
         {/* <Panel

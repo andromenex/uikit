@@ -2478,7 +2478,7 @@ var Menu = function (_a) {
     // const homeLink = links.find((link) => link.label === "Home");
     return (React.createElement(Wrapper$1, null,
         React.createElement(StyledNav, { showMenu: showMenu },
-            React.createElement("img", { src: "../../../../assets/testLogo.svg", alt: "Logo", style: { width: "24px" } }),
+            React.createElement("img", { src: "../../images/testLogo.svg", alt: "Logo", style: { width: "24px" } }),
             React.createElement("ul", { style: { listStyleType: "none", float: "left" } },
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React.createElement("a", { style: { textDecoration: "none" }, href: "/swap" }, "Swap")),
@@ -2488,8 +2488,7 @@ var Menu = function (_a) {
                     React.createElement("a", { style: { textDecoration: "none" }, href: "/#/pools" }, "Pools")),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React.createElement("a", { style: { textDecoration: "none" }, href: "/#/bush" }, "Quasar"))),
-            React.createElement(Flex, null,
-                React.createElement(UserBlock$1, { account: account, login: login, logout: logout }))),
+            React.createElement(UserBlock$1, { account: account, login: login, logout: logout })),
         React.createElement(BodyWrapper, null,
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React.createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
