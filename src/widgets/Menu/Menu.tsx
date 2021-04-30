@@ -119,12 +119,12 @@ const Menu: React.FC<NavProps> = ({
   return (
     <Wrapper>
       <StyledNav showMenu={showMenu}>
-        <Logo
+        {/* <Logo
           isPushed={isPushed}
           togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
           isDark={isDark}
           href={homeLink?.href ?? "/"}
-        />
+        /> */}
         {/* <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/> */}
         <ul style={{listStyleType: "none", float: "left"}}>
           <li><svg height="50" width="50">
