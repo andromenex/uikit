@@ -2433,8 +2433,8 @@ var StyledNav = styled__default['default'].nav(templateObject_2$c || (templateOb
     var theme = _a.theme;
     return theme.nav.background;
 });
-styled__default['default'].div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n"], ["\n  position: relative;\n  display: flex;\n"])));
-styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  // ", " {\n  //   margin-left: ", ";\n  //   max-width: ", ";\n  // }\n"], ["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  // ", " {\n  //   margin-left: ", ";\n  //   max-width: ", ";\n  // }\n"])), function (_a) {
+var BodyWrapper = styled__default['default'].div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n"], ["\n  position: relative;\n  display: flex;\n"])));
+var Inner = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  // ", " {\n  //   margin-left: ", ";\n  //   max-width: ", ";\n  // }\n"], ["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  // ", " {\n  //   margin-left: ", ";\n  //   max-width: ", ";\n  // }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? MENU_HEIGHT + "px" : 0);
 }, function (_a) {
@@ -2447,15 +2447,15 @@ styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __mak
     var isPushed = _a.isPushed;
     return "calc(100% - " + (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px)";
 });
-styled__default['default'](Overlay)(templateObject_5$1 || (templateObject_5$1 = __makeTemplateObject(["\n  position: fixed;\n  height: 100%;\n\n  ", " {\n    display: none;\n  }\n"], ["\n  position: fixed;\n  height: 100%;\n\n  ", " {\n    display: none;\n  }\n"])), function (_a) {
+var MobileOnlyOverlay = styled__default['default'](Overlay)(templateObject_5$1 || (templateObject_5$1 = __makeTemplateObject(["\n  position: fixed;\n  height: 100%;\n\n  ", " {\n    display: none;\n  }\n"], ["\n  position: fixed;\n  height: 100%;\n\n  ", " {\n    display: none;\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 });
 var Menu = function (_a) {
-    var account = _a.account, login = _a.login, logout = _a.logout; _a.isDark; _a.toggleTheme; _a.langs; _a.setLang; _a.currentLang; _a.cakePriceUsd; _a.links; _a.profile; _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout; _a.isDark; _a.toggleTheme; _a.langs; _a.setLang; _a.currentLang; _a.cakePriceUsd; _a.links; _a.profile; var children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
-    var _b = React.useState(!isMobile); _b[0]; _b[1];
+    var _b = React.useState(!isMobile), isPushed = _b[0], setIsPushed = _b[1];
     var _c = React.useState(true), showMenu = _c[0], setShowMenu = _c[1];
     var refPrevOffset = React.useRef(window.pageYOffset);
     React.useEffect(function () {
@@ -2500,7 +2500,10 @@ var Menu = function (_a) {
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "10px", paddingRight: "10px" } },
                     React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/bush" }, "Quasar"))),
             React__default['default'].createElement(Flex, null,
-                React__default['default'].createElement(UserBlock$1, { account: account, login: login, logout: logout })))));
+                React__default['default'].createElement(UserBlock$1, { account: account, login: login, logout: logout }))),
+        React__default['default'].createElement(BodyWrapper, null,
+            React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
+            React__default['default'].createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
 var templateObject_1$B, templateObject_2$c, templateObject_3$6, templateObject_4$3, templateObject_5$1;
 
