@@ -114,18 +114,18 @@ const Menu: React.FC<NavProps> = ({
   }, []);
 
   // Find the home link if provided
-  // const homeLink = links.find((link) => link.label === "Home");
+  const homeLink = links.find((link) => link.label === "Home");
 
   return (
     <Wrapper>
       <StyledNav showMenu={showMenu}>
-        {/* <Logo
+        <Logo
           isPushed={isPushed}
           togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
           isDark={isDark}
           href={homeLink?.href ?? "/"}
-        /> */}
-        <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/>
+        />
+        {/* <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/> */}
         <ul style={{listStyleType: "none", float: "left"}}>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/farm">Farms</a></li>
