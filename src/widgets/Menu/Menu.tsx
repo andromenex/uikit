@@ -125,13 +125,13 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>          
-          <UserBlock account={account} login={login} logout={logout} />
-          <ul>
-            <li><a href="/swap">Swap</a></li>
-            <li><a href="/farm">Farms</a></li>
-            <li><a href="/pools">Pools</a></li>
-            <li><a href="/bush">Quasar</a></li>
+          <ul style={{listStyleType: "none"}}>
+            <li><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
+            <li><a style={{textDecoration: "none"}} href="/farm">Farms</a></li>
+            <li><a style={{textDecoration: "none"}} href="/pools">Pools</a></li>
+            <li><a style={{textDecoration: "none"}} href="/bush">Quasar</a></li>
           </ul>
+          <UserBlock account={account} login={login} logout={logout} />
         </Flex>
       </StyledNav>
       <BodyWrapper>
