@@ -134,7 +134,7 @@ const Menu: React.FC<NavProps> = ({
           <UserBlock account={account} login={login} logout={logout} />
         </Flex>
       </StyledNav>
-      <BodyWrapper>
+      {/* <BodyWrapper>
         <Panel
           isPushed={isPushed}
           isMobile={isMobile}
@@ -152,7 +152,7 @@ const Menu: React.FC<NavProps> = ({
           {children}
         </Inner>
         <MobileOnlyOverlay show={isPushed} onClick={() => setIsPushed(false)} role="presentation" />
-      </BodyWrapper>
+      </BodyWrapper> */}
     </Wrapper>
   );
 };
