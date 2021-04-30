@@ -2879,7 +2879,7 @@ var StyledNav = styled__default['default'].nav(templateObject_2$e || (templateOb
     return theme.nav.background;
 });
 var BodyWrapper = styled__default['default'].div(templateObject_3$7 || (templateObject_3$7 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n"], ["\n  position: relative;\n  display: flex;\n"])));
-var Inner = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  ", " {\n    margin-left: ", ";\n    max-width: ", ";\n  }\n"], ["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  ", " {\n    margin-left: ", ";\n    max-width: ", ";\n  }\n"])), function (_a) {
+var Inner = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  // ", " {\n  //   margin-left: ", ";\n  //   max-width: ", ";\n  // }\n"], ["\n  flex-grow: 1;\n  margin-top: ", ";\n  // transition: margin-top 0.2s;\n  // transform: translate3d(0, 0, 0);\n  max-width: 100%;\n\n  // ", " {\n  //   margin-left: ", ";\n  //   max-width: ", ";\n  // }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? MENU_HEIGHT + "px" : 0);
 }, function (_a) {
