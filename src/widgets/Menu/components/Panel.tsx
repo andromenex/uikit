@@ -23,7 +23,7 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   // width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
   width: 100%;
   height: ${MENU_HEIGHT}px;
-  transition: padding-top 0.2s, width 0.2s;
+  // transition: padding-top 0.2s, width 0.2s;
   // border-right: ${({ isPushed }) => (isPushed ? "2px solid rgba(133, 133, 133, 0.1)" : 0)};
   border-right: 6px solid black;
   z-index: 11;
@@ -42,7 +42,7 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <PanelFooter {...props} />
+      {/* <PanelFooter {...props} /> */}
     </StyledPanel>
   );
 };
