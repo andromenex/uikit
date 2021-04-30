@@ -64,7 +64,7 @@ const ResetCSS = createGlobalStyle`
     box-sizing: border-box;
   }
   * {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
