@@ -2492,7 +2492,7 @@ var Menu = function (_a) {
     return (React__default['default'].createElement(Wrapper$1, null,
         React__default['default'].createElement(StyledNav, { showMenu: showMenu },
             React__default['default'].createElement("ul", { style: { listStyleType: "none", float: "left" } },
-                React__default['default'].createElement("li", null,
+                React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React__default['default'].createElement("svg", { height: "50", width: "50" },
                         React__default['default'].createElement("path", { fill: "none", stroke: "black", strokeWidth: "7", d: "M 45.90,12.50\n                  C 45.90,12.50 45.90,37.60 45.90,37.60\n                  45.90,37.60 4.10,37.60 4.10,37.60\n                  4.10,37.60 4.10,12.50 4.10,12.50\n                  4.10,12.50 45.90,12.50 45.90,12.50 Z" }))),
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },

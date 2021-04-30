@@ -2479,7 +2479,7 @@ var Menu = function (_a) {
     return (React.createElement(Wrapper$1, null,
         React.createElement(StyledNav, { showMenu: showMenu },
             React.createElement("ul", { style: { listStyleType: "none", float: "left" } },
-                React.createElement("li", null,
+                React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React.createElement("svg", { height: "50", width: "50" },
                         React.createElement("path", { fill: "none", stroke: "black", strokeWidth: "7", d: "M 45.90,12.50\n                  C 45.90,12.50 45.90,37.60 45.90,37.60\n                  45.90,37.60 4.10,37.60 4.10,37.60\n                  4.10,37.60 4.10,12.50 4.10,12.50\n                  4.10,12.50 45.90,12.50 45.90,12.50 Z" }))),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },

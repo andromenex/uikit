@@ -127,7 +127,7 @@ const Menu: React.FC<NavProps> = ({
         /> */}
         {/* <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/> */}
         <ul style={{listStyleType: "none", float: "left"}}>
-          <li><svg height="50" width="50">
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><svg height="50" width="50">
           <path
               fill="none" stroke="black" strokeWidth="7"
               d="M 45.90,12.50
