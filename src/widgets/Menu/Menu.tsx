@@ -127,8 +127,10 @@ const Menu: React.FC<NavProps> = ({
         <Flex>          
           <UserBlock account={account} login={login} logout={logout} />
           <ul>
-            <li>adadadad</li>
-            <li>adklkmlmamlaldla</li>
+            <li><a href="/swap">Swap</a></li>
+            <li><a href="/farm">Farms</a></li>
+            <li><a href="/pools">Pools</a></li>
+            <li><a href="/bush">Quasar</a></li>
           </ul>
         </Flex>
       </StyledNav>
