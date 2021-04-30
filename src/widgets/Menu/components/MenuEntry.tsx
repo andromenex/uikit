@@ -20,13 +20,14 @@ const rainbowAnimation = keyframes`
 
 const LinkLabel = styled.div<{ isPushed: boolean }>`
   color: ${({ isPushed, theme }) => (isPushed ? theme.colors.textSubtle : "transparent")};
-  transition: color 0.4s;
+  // transition: color 0.4s;
   flex-grow: 1;
 `;
 
 const MenuEntry = styled.div<Props>`
   cursor: pointer;
-  display: flex;
+  // display: flex;
+  display: inline-block;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
