@@ -125,10 +125,10 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         /> */}
         <ul style={{listStyleType: "none", float: "left"}}>
-          <li style={{display: "inline-block", paddingLeft: "10px", paddingRight: "10px"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
-          <li style={{display: "inline-block", paddingLeft: "10px", paddingRight: "10px"}}><a style={{textDecoration: "none"}} href="/farm">Farms</a></li>
-          <li style={{display: "inline-block", paddingLeft: "10px", paddingRight: "10px"}}><a style={{textDecoration: "none"}} href="/pools">Pools</a></li>
-          <li style={{display: "inline-block", paddingLeft: "10px", paddingRight: "10px"}}><a style={{textDecoration: "none"}} href="/bush">Quasar</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/farm">Farms</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/pools">Pools</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px"}}><a style={{textDecoration: "none"}} href="/#/bush">Quasar</a></li>
         </ul>
         <Flex>          
           <UserBlock account={account} login={login} logout={logout} />
