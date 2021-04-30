@@ -126,10 +126,10 @@ const Menu: React.FC<NavProps> = ({
         />
         <Flex>          
           <ul style={{listStyleType: "none"}}>
-            <li><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
-            <li><a style={{textDecoration: "none"}} href="/farm">Farms</a></li>
-            <li><a style={{textDecoration: "none"}} href="/pools">Pools</a></li>
-            <li><a style={{textDecoration: "none"}} href="/bush">Quasar</a></li>
+            <li><a style={{textDecoration: "none", display: "inline-block"}} href="/swap">Swap</a></li>
+            <li><a style={{textDecoration: "none", display: "inline-block"}} href="/farm">Farms</a></li>
+            <li><a style={{textDecoration: "none", display: "inline-block"}} href="/pools">Pools</a></li>
+            <li><a style={{textDecoration: "none", display: "inline-block"}} href="/bush">Quasar</a></li>
           </ul>
           <UserBlock account={account} login={login} logout={logout} />
         </Flex>
