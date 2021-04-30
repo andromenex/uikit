@@ -20,8 +20,9 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   justify-content: space-between;
   flex-shrink: 0;
   background-color: ${({ theme }) => theme.nav.background};
-  width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
-  height: "${MENU_HEIGHT}px";
+  // width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
+  width: 100%;
+  height: ${MENU_HEIGHT}px;
   transition: padding-top 0.2s, width 0.2s;
   border-right: ${({ isPushed }) => (isPushed ? "2px solid rgba(133, 133, 133, 0.1)" : 0)};
   z-index: 11;
