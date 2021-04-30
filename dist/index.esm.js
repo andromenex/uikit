@@ -2523,7 +2523,7 @@ var socials = [
         href: "https://twitter.com/Andromenex",
     },
 ];
-var MENU_HEIGHT = 64;
+var MENU_HEIGHT = 128;
 var MENU_ENTRY_HEIGHT = 48;
 var SIDEBAR_WIDTH_FULL = 240;
 var SIDEBAR_WIDTH_REDUCED = 56;
