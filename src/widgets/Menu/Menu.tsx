@@ -124,13 +124,13 @@ const Menu: React.FC<NavProps> = ({
           isDark={isDark}
           href={homeLink?.href ?? "/"}
         />
+        <ul style={{listStyleType: "none", float: "left"}}>
+          <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
+          <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/farm">Farms</a></li>
+          <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/pools">Pools</a></li>
+          <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/bush">Quasar</a></li>
+        </ul>
         <Flex>          
-          <ul style={{listStyleType: "none", float: "left"}}>
-            <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
-            <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/farm">Farms</a></li>
-            <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/pools">Pools</a></li>
-            <li style={{display: "inline-block", paddingLeft: "5px", paddingRight: "5px"}}><a style={{textDecoration: "none"}} href="/bush">Quasar</a></li>
-          </ul>
           <UserBlock account={account} login={login} logout={logout} />
         </Flex>
       </StyledNav>
