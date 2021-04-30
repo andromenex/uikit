@@ -53,6 +53,6 @@ export declare const socials: ({
     items?: undefined;
 })[];
 export declare const MENU_HEIGHT = 128;
-export declare const MENU_ENTRY_HEIGHT = 48;
+export declare const MENU_ENTRY_HEIGHT = 80;
 export declare const SIDEBAR_WIDTH_FULL = 240;
 export declare const SIDEBAR_WIDTH_REDUCED = 56;
