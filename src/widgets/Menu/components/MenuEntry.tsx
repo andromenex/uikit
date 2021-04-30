@@ -21,24 +21,25 @@ const rainbowAnimation = keyframes`
 const LinkLabel = styled.div<{ isPushed: boolean }>`
   color: ${({ isPushed, theme }) => (isPushed ? theme.colors.textSubtle : "transparent")};
   // transition: color 0.4s;
-  flex-grow: 1;
+  // flex-grow: 1;
 `;
 
 const MenuEntry = styled.div<Props>`
   cursor: pointer;
-  display: flex;
+  // display: flex;
   // display: inline-block;
-  align-items: center;
+  // align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
+  // padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
+  padding: 0 50px;
   font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
   background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : "transparent")};
   color: ${({ theme }) => theme.colors.textSubtle};
-  box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
+  // box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
 
   a {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     width: 100%;
     height: 100%;
   }
@@ -52,7 +53,7 @@ const MenuEntry = styled.div<Props>`
   }
 
   // Safari fix
-  flex-shrink: 0;
+  // flex-shrink: 0;
 
   &.rainbow {
     background-clip: text;
