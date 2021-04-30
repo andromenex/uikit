@@ -2517,7 +2517,7 @@ var links = [
 ];
 var MENU_HEIGHT = 128;
 var MENU_ENTRY_HEIGHT = 80;
-var SIDEBAR_WIDTH_FULL = 240;
+var SIDEBAR_WIDTH_FULL = 500;
 var SIDEBAR_WIDTH_REDUCED = 56;
 
 var rainbowAnimation = styled.keyframes(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  0%,\n  100% {\n    background-position: 0 0;\n  }\n  50% {\n    background-position: 100% 0;\n  }\n"], ["\n  0%,\n  100% {\n    background-position: 0 0;\n  }\n  50% {\n    background-position: 100% 0;\n  }\n"])));

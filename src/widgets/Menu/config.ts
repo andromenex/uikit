@@ -149,5 +149,5 @@ export const socials = [
 
 export const MENU_HEIGHT = 128;
 export const MENU_ENTRY_HEIGHT = 80;
-export const SIDEBAR_WIDTH_FULL = 240;
+export const SIDEBAR_WIDTH_FULL = 500;
 export const SIDEBAR_WIDTH_REDUCED = 56;
