@@ -79,7 +79,7 @@ var getThemeValue = function (path, fallback) { return function (theme) {
 
 var rotate = styled.keyframes(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
 var spinStyle = styled.css(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  animation: ", " 2s linear infinite;\n"], ["\n  animation: ", " 2s linear infinite;\n"])), rotate);
-var Svg = styled__default['default'].svg(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  fill: ", ";\n  flex-shrink: 0;\n\n  ", "\n  ", "\n"], ["\n  fill: ", ";\n  flex-shrink: 0;\n\n  ", "\n  ", "\n"])), function (_a) {
+var Svg = styled__default['default'].svg(templateObject_3 || (templateObject_3 = __makeTemplateObject(["\n  // fill: ", ";\n  fill: white;\n  flex-shrink: 0;\n\n  ", "\n  ", "\n"], ["\n  // fill: ", ";\n  fill: white;\n  flex-shrink: 0;\n\n  ", "\n  ", "\n"])), function (_a) {
     var theme = _a.theme, color = _a.color;
     return getThemeValue("colors." + color, color)(theme);
 }, function (_a) {
@@ -2450,7 +2450,7 @@ var MobileOnlyOverlay = styled__default['default'](Overlay)(templateObject_5$1 |
     return theme.mediaQueries.nav;
 });
 var Menu = function (_a) {
-    var account = _a.account, login = _a.login, logout = _a.logout; _a.isDark; _a.toggleTheme; _a.langs; _a.setLang; _a.currentLang; _a.cakePriceUsd; var links = _a.links; _a.profile; var children = _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout; _a.isDark; _a.toggleTheme; _a.langs; _a.setLang; _a.currentLang; _a.cakePriceUsd; _a.links; _a.profile; var children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
     var _b = React.useState(!isMobile), isPushed = _b[0], setIsPushed = _b[1];
@@ -2485,7 +2485,7 @@ var Menu = function (_a) {
         };
     }, []);
     // Find the home link if provided
-    links.find(function (link) { return link.label === "Home"; });
+    // const homeLink = links.find((link) => link.label === "Home");
     return (React__default['default'].createElement(Wrapper$1, null,
         React__default['default'].createElement(StyledNav, { showMenu: showMenu },
             React__default['default'].createElement("ul", { style: { listStyleType: "none", float: "left" } },
@@ -2608,7 +2608,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
     // text: "#424f3e",
     text: "#ffffff", textDisabled: "#BDC2C4", 
     // textSubtle: "#62815c",
-    textSubtle: "#000000", borderColor: "#35353547", card: "#000000", nav: "#f9fdf9", gradients: {
+    textSubtle: "#ffffff", borderColor: "#35353547", card: "#000000", nav: "#f9fdf9", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#A28BD4", borderColor: "#524B63", card: "#27262c", nav: "#27262c", gradients: {
