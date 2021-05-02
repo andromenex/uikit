@@ -23,7 +23,8 @@ const getDisabledStyles = ({ isLoading, theme }: ThemedButtonProps) => {
       background-color: ${theme.colors.backgroundDisabled};
       border-color: ${theme.colors.backgroundDisabled};
       box-shadow: none;
-      color: ${theme.colors.textDisabled};
+      // color: ${theme.colors.textDisabled};
+      color: white;
       cursor: not-allowed;
     }
   `;
