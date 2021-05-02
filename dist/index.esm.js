@@ -2479,6 +2479,7 @@ var Menu = function (_a) {
     return (React.createElement(Wrapper$1, null,
         React.createElement(StyledNav, { showMenu: showMenu },
             React.createElement("ul", { style: { listStyleType: "none", float: "left" } },
+                React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold" } }, "ANDROMENEX"),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React.createElement("a", { style: { textDecoration: "none" }, href: "/swap" }, "Swap")),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },

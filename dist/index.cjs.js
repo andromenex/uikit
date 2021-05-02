@@ -2492,6 +2492,7 @@ var Menu = function (_a) {
     return (React__default['default'].createElement(Wrapper$1, null,
         React__default['default'].createElement(StyledNav, { showMenu: showMenu },
             React__default['default'].createElement("ul", { style: { listStyleType: "none", float: "left" } },
+                React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold" } }, "ANDROMENEX"),
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
                     React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/swap" }, "Swap")),
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px" } },
