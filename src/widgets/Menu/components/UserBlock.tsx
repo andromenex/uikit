@@ -21,6 +21,7 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
           onClick={() => {
             onPresentAccountModal();
           }}
+          style={{color: "white"}}
         >
           {accountEllipsis}
         </Button>
@@ -30,6 +31,7 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
           onClick={() => {
             onPresentConnectModal();
           }}
+          style={{color: "white"}}
         >
           Connect
         </Button>
