@@ -22,7 +22,7 @@ const getDisabledStyles = ({ isLoading, theme }: ThemedButtonProps) => {
     &.pancake-button--disabled {
       background-color: ${theme.colors.backgroundDisabled};
       border-color: ${theme.colors.backgroundDisabled};
-      box-shadow: none;
+      // box-shadow: none;
       // color: ${theme.colors.textDisabled};
       color: white;
       cursor: not-allowed;
@@ -47,7 +47,7 @@ const StyledButton = styled.button<BaseButtonProps>`
   align-items: center;
   border: 0;
   border-radius: 5px;
-  box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;
+  // box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
