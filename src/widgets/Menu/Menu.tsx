@@ -128,10 +128,10 @@ const Menu: React.FC<NavProps> = ({
         {/* <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/> */}
         <ul style={{listStyleType: "none", float: "left"}}>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white"}}><a style={{textDecoration: "none"}} href="/">ANDROMENEX</a></li>
-          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/swap">Swap</a></li>
-          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/farms">Farms</a></li>
-          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/pools">Pools</a></li>
-          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/bush">Quasar</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/swap">SWAP</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/farms">FARMS</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/pools">POOLS</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/bush">QUASAR</a></li>
         </ul>
         {/* <Flex>           */}
           <UserBlock account={account} login={login} logout={logout} />
