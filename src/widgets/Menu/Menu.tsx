@@ -127,7 +127,7 @@ const Menu: React.FC<NavProps> = ({
         /> */}
         {/* <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/> */}
         <ul style={{listStyleType: "none", float: "left"}}>
-          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white"}}><a style={{textDecoration: "none"}} href="/">ANDROMENEX</a></li>
+          <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white"}}><div style={{width: "100px", height: "20px", border: "3px solid white"}} /></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/swap">SWAP</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/farms">FARMS</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/pools">POOLS</a></li>

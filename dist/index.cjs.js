@@ -2490,7 +2490,7 @@ var Menu = function (_a) {
         React__default['default'].createElement(StyledNav, { showMenu: showMenu },
             React__default['default'].createElement("ul", { style: { listStyleType: "none", float: "left" } },
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white" } },
-                    React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/" }, "ANDROMENEX")),
+                    React__default['default'].createElement("div", { style: { width: "100px", height: "20px", border: "3px solid white" } })),
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white" } },
                     React__default['default'].createElement("a", { style: { textDecoration: "none" }, href: "/swap" }, "SWAP")),
                 React__default['default'].createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white" } },

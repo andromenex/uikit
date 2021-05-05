@@ -2477,7 +2477,7 @@ var Menu = function (_a) {
         React.createElement(StyledNav, { showMenu: showMenu },
             React.createElement("ul", { style: { listStyleType: "none", float: "left" } },
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white" } },
-                    React.createElement("a", { style: { textDecoration: "none" }, href: "/" }, "ANDROMENEX")),
+                    React.createElement("div", { style: { width: "100px", height: "20px", border: "3px solid white" } })),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white" } },
                     React.createElement("a", { style: { textDecoration: "none" }, href: "/swap" }, "SWAP")),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white" } },
