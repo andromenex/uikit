@@ -30,6 +30,7 @@ const ResetCSS = createGlobalStyle`
   body {
     line-height: 1;
     font-size: 16px;
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(39, 176, 230, 0.1) 0%, rgba(39, 176, 230, 0) 100%);
   }
   ol,
   ul {
@@ -73,11 +74,12 @@ const ResetCSS = createGlobalStyle`
     width: 8px;
   }
   ::-webkit-scrollbar-thumb {
-    background: ${({ theme }) => theme.colors.textSubtle}; 
+    background: #35353547;
+    // background: ${({ theme }) => theme.colors.textSubtle}; 
     // border-radius: 8px;
   }
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
+    // box-shadow: inset 0 0 5px ${({ theme }) => theme.colors.input}; 
     // border-radius: 10px;
   }
 `;
