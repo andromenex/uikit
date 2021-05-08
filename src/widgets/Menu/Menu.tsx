@@ -64,6 +64,22 @@ const MobileOnlyOverlay = styled(Overlay)`
   }
 `;
 
+const NavigationList = styled.ul`
+  listStyleType: none;
+  float: left;
+
+  @media screen and (max-width: 1300px) {
+    visibility: hidden;
+    display: none;
+  }
+
+`;
+
+const NavigationMenuMobile = styled.ul`
+
+
+`;
+
 const Menu: React.FC<NavProps> = ({
   account,
   login,
@@ -119,13 +135,6 @@ const Menu: React.FC<NavProps> = ({
   return (
     <Wrapper>
       <StyledNav showMenu={showMenu}>
-        {/* <Logo
-          isPushed={isPushed}
-          togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
-          isDark={isDark}
-          href={homeLink?.href ?? "/"}
-        /> */}
-        {/* <img src="../../images/testLogo.svg" alt="Logo" style={{width: "24px"}}/> */}
         <ul style={{listStyleType: "none", float: "left"}}>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white"}}><a style={{textDecoration: "none"}} href="/">ANDROMENEX</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/swap">SWAP</a></li>
@@ -133,10 +142,10 @@ const Menu: React.FC<NavProps> = ({
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/pools">POOLS</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/bush">QUASAR</a></li>
         </ul>
-        {/* <Flex>           */}
-          <UserBlock account={account} login={login} logout={logout} />
-        {/* </Flex> */}
+        <UserBlock account={account} login={login} logout={logout} />
       </StyledNav>
+      
+
       <BodyWrapper>
         {/* <Panel
           isPushed={isPushed}

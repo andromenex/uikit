@@ -2436,6 +2436,8 @@ var MobileOnlyOverlay = styled(Overlay)(templateObject_5$1 || (templateObject_5$
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 });
+styled.ul(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n  listStyleType: none;\n  float: left;\n\n  @media screen and (max-width: 1300px) {\n    visibility: hidden;\n    display: none;\n  }\n\n"], ["\n  listStyleType: none;\n  float: left;\n\n  @media screen and (max-width: 1300px) {\n    visibility: hidden;\n    display: none;\n  }\n\n"])));
+styled.ul(templateObject_7 || (templateObject_7 = __makeTemplateObject(["\n\n\n"], ["\n\n\n"])));
 var Menu = function (_a) {
     var account = _a.account, login = _a.login, logout = _a.logout; _a.isDark; _a.toggleTheme; _a.langs; _a.setLang; _a.currentLang; _a.cakePriceUsd; _a.links; _a.profile; var children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
@@ -2491,7 +2493,7 @@ var Menu = function (_a) {
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React.createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
-var templateObject_1$B, templateObject_2$c, templateObject_3$6, templateObject_4$3, templateObject_5$1;
+var templateObject_1$B, templateObject_2$c, templateObject_3$6, templateObject_4$3, templateObject_5$1, templateObject_6, templateObject_7;
 
 var ToastAction = function (_a) {
     var action = _a.action;
