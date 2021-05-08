@@ -2436,7 +2436,7 @@ var MobileOnlyOverlay = styled(Overlay)(templateObject_5$1 || (templateObject_5$
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 });
-styled.ul(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n  listStyleType: none;\n  float: left;\n\n  @media screen and (max-width: 1300px) {\n    visibility: hidden;\n    display: none;\n  }\n\n"], ["\n  listStyleType: none;\n  float: left;\n\n  @media screen and (max-width: 1300px) {\n    visibility: hidden;\n    display: none;\n  }\n\n"])));
+var NavigationList = styled.ul(templateObject_6 || (templateObject_6 = __makeTemplateObject(["\n  listStyleType: none;\n  float: left;\n\n  @media screen and (max-width: 1300px) {\n    visibility: hidden;\n    display: none;\n  }\n\n"], ["\n  listStyleType: none;\n  float: left;\n\n  @media screen and (max-width: 1300px) {\n    visibility: hidden;\n    display: none;\n  }\n\n"])));
 styled.ul(templateObject_7 || (templateObject_7 = __makeTemplateObject(["\n\n\n"], ["\n\n\n"])));
 var Menu = function (_a) {
     var account = _a.account, login = _a.login, logout = _a.logout; _a.isDark; _a.toggleTheme; _a.langs; _a.setLang; _a.currentLang; _a.cakePriceUsd; _a.links; _a.profile; var children = _a.children;
@@ -2477,7 +2477,7 @@ var Menu = function (_a) {
     // const homeLink = links.find((link) => link.label === "Home");
     return (React.createElement(Wrapper$1, null,
         React.createElement(StyledNav, { showMenu: showMenu },
-            React.createElement("ul", { style: { listStyleType: "none", float: "left" } },
+            React.createElement(NavigationList, null,
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white" } },
                     React.createElement("a", { style: { textDecoration: "none" }, href: "/" }, "ANDROMENEX")),
                 React.createElement("li", { style: { display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white" } },

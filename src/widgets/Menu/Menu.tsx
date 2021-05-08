@@ -135,13 +135,15 @@ const Menu: React.FC<NavProps> = ({
   return (
     <Wrapper>
       <StyledNav showMenu={showMenu}>
-        <ul style={{listStyleType: "none", float: "left"}}>
+        <NavigationList>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", fontWeight: "bold", color: "white"}}><a style={{textDecoration: "none"}} href="/">ANDROMENEX</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/swap">SWAP</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/farms">FARMS</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/pools">POOLS</a></li>
           <li style={{display: "inline-block", paddingLeft: "15px", paddingRight: "15px", color: "white"}}><a style={{textDecoration: "none"}} href="/#/bush">QUASAR</a></li>
-        </ul>
+        </NavigationList>
+          
+        
         <UserBlock account={account} login={login} logout={logout} />
       </StyledNav>
       
